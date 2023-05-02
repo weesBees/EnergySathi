@@ -1,10 +1,10 @@
-Temperature sensors: measure temp of surrunding enviornment and rooms
+Temperature sensors:(SENSOR DONE) measure temp of surrunding enviornment and rooms
 
-Light sensors: Measere the light in room and change the light based on occupancy and surroungidng light.
+Light sensors:(SENSOR DONE) Measere the light in room and change the light based on occupancy and surroungidng light.
 
-Motion sensors: detect occupancies and movements
+Motion sensors:(SENSOR DONE) detect occupancies and movements
 
-Humidity sensors: monitor moisture in the air and rooms
+Humidity sensors:(SENSOR DONE) monitor moisture in the air and rooms
 
 Carbon dioxide/other gases sensors: measure teh harmulf gass level to make more or less ventilation accordingly.
 
@@ -17,3 +17,6 @@ some type of elctric parameters measure and storing device:  to measeure the ele
 1-2 week vignesh- Prepaer a modle code with model data on how it will work.
 NEXT- INTERGRATE THEM.
 how we can integrete - we can use something with bluetooth or any other transmittion  that goes to an android phone then maybey we can  use android development to add python with it or somehting to process or we coude transmitt to a laptop or pc acitng as a server with pyhton code in it
+Temperature and humidity-DHT11 SENSOR
+Light -LDR sensor
+Motion- PIR sensor

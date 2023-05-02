@@ -16,3 +16,4 @@ some type of elctric parameters measure and storing device:  to measeure the ele
 1stWeek vyom- Prepare adivice to display values on lcd of sensors.
 1-2 week vignesh- Prepaer a modle code with model data on how it will work.
 NEXT- INTERGRATE THEM.
+how we can integrete - we can use something with bluetooth or any other transmittion  that goes to an android phone then maybey we can  use android development to add python with it or somehting to process or we coude transmitt to a laptop or pc acitng as a server with pyhton code in it

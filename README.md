@@ -12,3 +12,7 @@ some type of elctric parameters measure and storing device:  to measeure the ele
      1- hack multimeter(hard,cheap)
      2- buy a multimeter with this function(expensive,easy)
      3- get another deivce to do this thing(no clue about it)
+
+1stWeek vyom- Prepare adivice to display values on lcd of sensors.
+1-2 week vignesh- Prepaer a modle code with model data on how it will work.
+NEXT- INTERGRATE THEM.

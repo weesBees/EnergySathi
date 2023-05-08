@@ -20,3 +20,4 @@ how we can integrete - we can use something with bluetooth or any other transmit
 Temperature and humidity-DHT11 SENSOR
 Light -LDR sensor
 Motion- PIR sensor
+SERACH FOR 2 WAY COMMUNICATION BETWEEN PYTHON AND ARDUINO

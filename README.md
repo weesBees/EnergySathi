@@ -6,7 +6,7 @@ Motion sensors:(SENSOR DONE) detect occupancies and movements
 
 Humidity sensors:(SENSOR DONE) monitor moisture in the air and rooms
 
-Carbon dioxide/other gases sensors: measure teh harmulf gass level to make more or less ventilation accordingly.
+Carbon dioxide/other gases sensors(SENSOR DONE): measure teh harmulf gass level to make more or less ventilation accordingly.
 
 some type of elctric parameters measure and storing device:  to measeure the electric usage and t change it. Can be done by-
      1- hack multimeter(hard,cheap)

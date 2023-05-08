@@ -22,3 +22,7 @@ Light -LDR sensor
 Motion- PIR sensor
 carbon DIOXIDE- MQ-135
 SERACH FOR 2 WAY COMMUNICATION BETWEEN PYTHON AND ARDUINO
+Fan ON/OFF if co2 and temp.
+Light On/off- LDR and motion sensor.
+Widnow open witservo - if co2
+AC- if temp

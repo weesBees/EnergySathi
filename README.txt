@@ -26,3 +26,5 @@ Fan ON/OFF if co2 and temp.
 Light On/off- LDR and motion sensor.
 Widnow open witservo - if co2
 AC- if temp
+Communication for python and arduino- 1. making a simple encryption with eirther python or arduino so that it does not interfere with sensor values.(BETTER)
+                                      2. If bluetooth then we need to connec to bluetooth through python thhen process the data.

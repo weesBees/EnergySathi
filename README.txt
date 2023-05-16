@@ -28,3 +28,10 @@ Widnow open witservo - if co2
 AC- if temp
 Communication for python and arduino- 1. making a simple encryption with eirther python or arduino so that it does not interfere with sensor values.(BETTER)
                                       2. If bluetooth then we need to connec to bluetooth through python thhen process the data.
+Giving data for 6 hours-
+Motion sensor- How many times motion sensed in 1 hour
+Humidity- AVG value in 1 hour
+Temp- Avg in 1 hour
+CO2 -  avg AnlgoValue  in hour, Min and max value (ANALOG) to set percentage for the whole 6 hours
+Light level- avg every 1 hour(analog), Min-cover sensor, Max- bright flashlight
+Measure electricity consumption-  measureing current with arduino with ACS712 hall effect current sensor and then in pythong making a clock to calcuate total current consumed by I*T. 

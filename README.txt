@@ -34,4 +34,4 @@ Humidity- AVG value in 1 hour
 Temp- Avg in 1 hour
 CO2 -  avg AnlgoValue  in hour, Min and max value (ANALOG) to set percentage for the whole 6 hours
 Light level- avg every 1 hour(analog), Min-cover sensor, Max- bright flashlight
-Measure electricity consumption-  measureing current with arduino with ACS712 hall effect current sensor and then in pythong making a clock to calcuate total current consumed by I*T. 
+Measure electricity consumption-  measureing current with arduino with ACS712 hall effect current sensor and then mesuring voltage with a voltage divider circuit with a 20k and a 100k resitor to get the power. Then making a clock in python to obtain energy=P*T   P=I*V.

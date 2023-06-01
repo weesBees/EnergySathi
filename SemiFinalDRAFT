@@ -1,0 +1,96 @@
+#include <LiquidCrystal_I2C.h>
+#include <dht11.h>
+#define DHT11PIN 7
+
+dht11 DHT11;
+LiquidCrystal_I2C lcd(0x27,16,2);  // set the LCD address to 0x3F for a 16 chars and 2 line display
+double Vout = 0;
+double Current = 0;
+const double scale_factor = 0.185; // 20A
+
+const double vRef = 5.00;
+const double resConvert = 1024;
+double resADC = vRef/resConvert;
+double zeroPoint = vRef/2;
+void setup() {
+  lcd.init();
+  lcd.clear();         
+  lcd.backlight();   
+  Serial.begin(9600);   // Make sure backlight is on
+}
+
+void loop() {
+  int L=analogRead(A0);
+  int C = analogRead(A1);
+   int chk = DHT11.read(DHT11PIN);
+    lcd.setCursor(7,1);   //Set cursor to character 2 on line 0
+  lcd.print("H:");
+  lcd.setCursor(9,1);   
+  int h=(float)DHT11.humidity;
+  lcd.print(h);  
+lcd.setCursor(6,0);   
+  lcd.print("T:");  
+  lcd.setCursor(8,0);   
+  int t=(float)DHT11.temperature;
+  lcd.print(t);
+  lcd.setCursor(12,1);   
+  lcd.print("M:");  
+  lcd.setCursor(14,1);   
+  lcd.print(digitalRead(8));  
+  lcd.setCursor(11,0);   
+  lcd.print("C:");
+if(C>99){
+  lcd.setCursor(13,0);   
+  lcd.print(C);
+}
+else{
+  lcd.setCursor(13,0);   
+  lcd.print(" ");
+  lcd.setCursor(14,0);   
+  lcd.print(C);
+}
+  lcd.setCursor(0,0);   
+  lcd.print("L:");  
+  if (L>9){
+    if(L>99){
+      lcd.setCursor(2,0);   
+      lcd.print(L);  
+    }
+    else{
+      lcd.setCursor(2,0);   
+      lcd.print(" "); 
+      lcd.setCursor(3,0);   
+      lcd.print(L);
+    }
+  }
+  else{
+    lcd.setCursor(2,0);   
+      lcd.print("  "); 
+    lcd.setCursor(4,0);   
+      lcd.print(L);
+  }  
+
+   for(int i = 0; i < 1000; i++) {
+    Vout = (Vout + (resADC * analogRead(A2)));   
+  }
+  Vout = Vout /1000;
+
+  Current = (Vout - zeroPoint)/ scale_factor;    
+  Current= Current*1000;               
+int x= map(Current,-750,-200,0,500);
+if(x<9){
+  x=0;
+}
+
+float a=map(analogRead(A3),0.00,710.00,0.00,12.20);
+float b=map(analogRead(A3),194.00,567.00,3.34,9.77);
+float c=map(analogRead(A3),0.00,294.00,0.00,5.03);
+float avg=(a+b+c)/3;
+float p = (avg*x)/1000;
+ lcd.setCursor(0,1);   
+  lcd.print("P:");
+   lcd.setCursor(2,1);   
+  lcd.print(p); 
+  Serial.println(avg  );
+  Serial.println(x);
+}

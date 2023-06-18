@@ -38,7 +38,7 @@ Measure electricity consumption-  measureing current with arduino with ACS712 ha
 
 
 General Intro
-Today we are with out G20 EnergySathi :Empowering energy efficiency. This project aims to minimise the energy consumptions of a building to conserve our resources and promote sustainable development.
+Today we are with our project G20 EnergySathi. It is a new way of empowering energy effiency by collecting, analyzing. This project aims to minimise the energy consumptions of a building to conserve our resources and promote sustainable development.
 Approach to problem 
 Model showcasing --> Power (I, V), Photoresister, Motion, CO2, Humidity, Temperaeture
 By measuring all these parameters, we can improve automation of HCAV systems and empower energy efficiency to minimise energy consumption.

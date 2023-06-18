@@ -35,3 +35,12 @@ Temp- Avg in 1 hour
 CO2 -  avg AnlgoValue  in hour, Min and max value (ANALOG) to set percentage for the whole 6 hours
 Light level- avg every 1 hour(analog), Min-cover sensor, Max- bright flashlight
 Measure electricity consumption-  measureing current with arduino with ACS712 hall effect current sensor and then mesuring voltage with a voltage divider circuit with a 20k and a 100k resitor to get the power. Then making a clock in python to obtain energy=P*T   P=I*V.
+
+
+General Intro
+Today we are with out G20 EnergySathi :Empowering energy efficiency. This project aims to minimise the energy consumptions of a building to conserve our resources and promote sustainable development.
+Approach to problem 
+Model showcasing --> Power (I, V), Photoresister, Motion, CO2, Humidity, Temperaeture
+By measuring all these parameters, we can improve automation of HCAV systems and empower energy efficiency to minimise energy consumption.
+Take a look at how AI and machine learning part works through python integration.
+The sensor reading are taken as data in an excel sheet for forcasting and analysing patterns with the machine learning model displayed here. On the code shown here, the model is trained and tested. The results of prediction are shown here on the graph. As we see, the predictions and actual reading are pretty close at their timestamps. When we want to forecast power consumptions and other readings later, the data and timestamps can be put in the model and it would predict them for us.

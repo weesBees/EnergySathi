@@ -38,15 +38,19 @@ Measure electricity consumption-  measureing current with arduino with ACS712 ha
 
 
 General Intro
-Today we are with our project G20 EnergySathi. It is a new way of empowering energy effiency by collecting, analyzing and optimising data related to energy. This project aims to minimise the energy consumptions of a building to conserve our resources and promote sustainable development.
-But what is the problem?? -
-Acording to a study conducted by the berau of energy efficiency (BEE) in India , it is estimated that aroud 19 % of toatal energy consumption is wasted in the industrial sector and around 20% to 30% in residential araes. this is due to inefficent use of HVAC nad lighting systems.This path of enviornmental degradation is taking us towards a climate crisis.
+//vig
+Today we are with our project G20 EnergySathi.//vig It is a new way of empowering energy effiency by collecting, analyzing and optimising data related to energy. This project aims to minimise the energy consumptions of a building to conserve our resources and promote sustainable development.
+//vig But what is the problem?? -//vig 
+Acording to a study conducted by the berau of energy efficiency (BEE) in India , it is estimated that aroud 19 % of toatal energy consumption is wasted in the industrial sector and around 20% to 30% in residential araes.//vig this is due to inefficent use of HVAC nad lighting systems.This path of enviornmental degradation is taking us towards a climate crisis. Some other problems are also listed on the slide.//vig
 Model showcasing --> Power (I, V), Photoresister, Motion, CO2, Humidity, Temperaeture
 By measuring all these parameters that co relate with energy consumptions, we can improve automation of HCAV systems and empower energy efficiency to minimise energy consumption.
-Not only this, we are integarating this with a python scipt to make it smarter and more efficient with AI and ML. 
+//vig Not only this, we are integarating this with a python scipt to make it smarter and more efficient with AI and ML. 
 // softaware
 Take a look at how AI and machine learning part works through python integration.
 The sensor reading are taken as data in an excel sheet for forcasting and analysing patterns with the machine learning model displayed here. On the code shown here, the model is trained and tested. The results of prediction are shown here on the graph. As we see, the predictions and actual reading are pretty close at their timestamps. When we want to forecast power consumptions and other readings later, the data and timestamps can be put in the model and it would predict them for us.
 //software
+//vig
+our project g20 energy sathi abides by many g20 and fln principles as listed on the slide. //vig We want to use sustainable development ,energy efficiency and collaboration  toweards a common gooal of minimizing energy consumtion in buildings.//vig
 by implementation of g20 energy sathi we will be excpectuon a 15% to 30% reduction in energy wastage. This is a statistical evidence from a case study condected by american counci for energy efficient economy. Now with our own G20 energy sathin inida will too see result like or better than this
-Even thogh this sathi covers a vast number of paprameters it can still be imporved. Like it can have more parameters with water consumptiono, equipment efficiency and solare readiation. Or we can improve our softare procesing by inculduing fators like rcommended energy consumtion from g20 and fln or improving our ml and ai algorithms.
+Even thogh this sathi covers a vast number of paprameters it can still be imporved. Like it can have more parameters with water consumptiono, equipment efficiency and solare readiation. //vig Or we can improve our softare procesing by inculduing fators like rcommended energy consumtion from g20 and fln or improving our ml and ai algorithms.//vig
+This was our world changing project g20 energy sathi - //both empowering energy efiiciency.//both
